@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/sc01-common/sc01-common.iml" filepath="$PROJECT_DIR$/sc01-common/sc01-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc02-itemservice/sc02-itemservice.iml" filepath="$PROJECT_DIR$/sc02-itemservice/sc02-itemservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc03-userservice/sc03-userservice.iml" filepath="$PROJECT_DIR$/sc03-userservice/sc03-userservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc04-orderservice/sc04-orderservice.iml" filepath="$PROJECT_DIR$/sc04-orderservice/sc04-orderservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sc05-eureka/sc05-eureka.iml" filepath="$PROJECT_DIR$/sc05-eureka/sc05-eureka.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: eureka-server
+
+server:
+  port: 2001
+
+eureka:
+  server:
+    enable-self-preservation: true  #自我保护状态
+  instance:
+    hostname: eureka1
+  client:
+    register-with-eureka: false #不向自身注册
+    fetch-registry: false #不从自身拉取注册信息

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/sc02-itemservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc03-userservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc04-orderservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sc05-eureka" charset="UTF-8" />
+  </component>
+</project>

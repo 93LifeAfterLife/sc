@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sc05-eureka" />
+        <module name="sc01-common" />
+        <module name="sc03-userservice" />
+        <module name="sc04-orderservice" />
+        <module name="sc02-itemservice" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sc01-common" target="1.8" />
+      <module name="sc02-itemservice" target="1.8" />
+      <module name="sc03-userservice" target="1.8" />
+      <module name="sc04-orderservice" target="1.8" />
+      <module name="sc05-eureka" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sc02-itemservice" options="-parameters" />
+      <module name="sc03-userservice" options="-parameters" />
+      <module name="sc04-orderservice" options="-parameters" />
+      <module name="sc05-eureka" options="-parameters" />
+    </option>
+  </component>
+</project>
