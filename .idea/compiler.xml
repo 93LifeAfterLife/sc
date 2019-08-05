@@ -6,19 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="sc05-eureka" />
-        <module name="sc01-common" />
+        <module name="sp01-common" />
+        <module name="sc08-hystrix-dashboard" />
         <module name="sc03-userservice" />
-        <module name="sc04-orderservice" />
+        <module name="sc05-eureka" />
         <module name="sc02-itemservice" />
+        <module name="sc06-ribbon (2)" />
+        <module name="sc09-feign" />
+        <module name="sc04-orderservice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sc01-common" target="1.8" />
       <module name="sc02-itemservice" target="1.8" />
       <module name="sc03-userservice" target="1.8" />
       <module name="sc04-orderservice" target="1.8" />
       <module name="sc05-eureka" target="1.8" />
+      <module name="sc06-ribbon (1)" target="1.8" />
+      <module name="sc06-ribbon (2)" target="1.8" />
+      <module name="sc07-hystrix" target="1.8" />
+      <module name="sc08-hystrix-dashboard" target="1.8" />
+      <module name="sc09-feign" target="1.8" />
+      <module name="sp01-common" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -27,6 +35,11 @@
       <module name="sc03-userservice" options="-parameters" />
       <module name="sc04-orderservice" options="-parameters" />
       <module name="sc05-eureka" options="-parameters" />
+      <module name="sc06-ribbon (1)" options="-parameters" />
+      <module name="sc06-ribbon (2)" options="-parameters" />
+      <module name="sc07-hystrix" options="-parameters" />
+      <module name="sc08-hystrix-dashboard" options="-parameters" />
+      <module name="sc09-feign" options="-parameters" />
     </option>
   </component>
 </project>

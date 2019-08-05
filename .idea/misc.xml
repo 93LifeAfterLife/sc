@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -8,10 +11,10 @@
         <option value="$PROJECT_DIR$/sc03-userservice/pom.xml" />
         <option value="$PROJECT_DIR$/sc04-orderservice/pom.xml" />
         <option value="$PROJECT_DIR$/sc05-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/sc08-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/sc09-feign/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK">
-    <output url="file://$PROJECT_DIR$/out" />
-  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
